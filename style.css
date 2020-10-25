@@ -25,6 +25,8 @@ main {
     grid-gap: 1rem;
     max-width: 1200px;
     margin: auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 
@@ -54,15 +56,25 @@ header {
 h3 {
     color: rgb(255, 255, 255);
     background-color: black;
+    width: 15rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
 }
 
 h4 {
     color: rgb(102, 101, 97);
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
 }
 
 h1 {
     color: rgb(102, 101, 97);
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 h2 {
@@ -71,6 +83,8 @@ h2 {
     margin-bottom: 0;
     border-bottom-style: groove;
     outline-width: thin;
+    font-family: 'Merriweather', serif;
+    font-size: 1.3rem;
 
 
 }
@@ -102,6 +116,7 @@ ul li {
 button {
     background-color: rgb(255, 255, 255);
     border-color: rgb(111, 43, 34);
+    outline-color: rgb(111, 43, 34);
     color: rgb(111, 43, 34);
     padding: 0.5rem;
 }
