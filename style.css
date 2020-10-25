@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /*    background-color: rgb(242, 239, 234);*/
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(242, 239, 234);
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.post > img {
+    padding: 1rem;
+}
+
+.data {
+    padding: 1rem;
+}
+
+header {
+    padding: 1rem;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+h4 {
+    color: rgb(102, 101, 97);
+}
+
+h1 {
+    color: rgb(102, 101, 97);
+    margin: 0;
+}
+
+h2 {
+    color: rgb(102, 101, 97);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    border-bottom-style: groove;
+    outline-width: thin;
+
+
+}
+
+li {
+    color: rgb(102, 101, 97);
+}
+
+span {
+    color: black;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    outline-style: groove;
+    outline-width: thin;
+    outline-color: rgb(195, 193, 185);
+    padding: 1rem;
+}
+
+ul li {
+    padding-top: 1rem;
+    border-bottom-style: groove;
+    outline-color: rgb(195, 193, 185);
+    outline-width: thin;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(111, 43, 34);
+    color: rgb(111, 43, 34);
+    padding: 0.5rem;
+}

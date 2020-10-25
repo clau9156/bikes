@@ -19,7 +19,7 @@ function showPost(post){
     clone.querySelector(".colours").textContent = post.colours;
     clone.querySelector(".in_stock").textContent = post.in_stock;
 //    clone.querySelector(".image").setAttribute("src",`http://cglglobal.dk/semester_2/pods`)
-    clone.querySelector("img").setAttribute("src",post.image);
+//    clone.querySelector("img").setAttribute("src",post.image);
     //appending
     document.querySelector("main").appendChild(clone);
 }
